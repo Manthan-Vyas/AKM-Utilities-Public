@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.akm",
+    "module": "mutils",
+    "version": "0.0.1a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20-Beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mutils-0.0.1a.aar",
+          "url": "mutils-0.0.1a.aar",
+          "size": 49000,
+          "sha512": "4bf9d2101c07821dab15ef9507f805fa187aa4e438b7a6ae6ecf71f77a39b45249bdc94c38341012d5c1e8e68aec13c0dfa7f9dade3b4465d62805f6c96464cc",
+          "sha256": "682b6fced4bab307b8a89fd0429ef88e221922720446a3e67441ebdeb0ab206e",
+          "sha1": "787c452eb23e5e21156fa16f19f093c532c633de",
+          "md5": "4086b778f785b3d70250f46bdeae0825"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-auth-ktx",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-database-ktx",
+          "version": {
+            "requires": "20.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20-Beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mutils-0.0.1a.aar",
+          "url": "mutils-0.0.1a.aar",
+          "size": 49000,
+          "sha512": "4bf9d2101c07821dab15ef9507f805fa187aa4e438b7a6ae6ecf71f77a39b45249bdc94c38341012d5c1e8e68aec13c0dfa7f9dade3b4465d62805f6c96464cc",
+          "sha256": "682b6fced4bab307b8a89fd0429ef88e221922720446a3e67441ebdeb0ab206e",
+          "sha1": "787c452eb23e5e21156fa16f19f093c532c633de",
+          "md5": "4086b778f785b3d70250f46bdeae0825"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mutils-0.0.1a-sources.jar",
+          "url": "mutils-0.0.1a-sources.jar",
+          "size": 6720,
+          "sha512": "1add11ae5a768f5a229089295ac967da4998c94cc2ec2ebcded975c1a46b7208c2445459b9547bf730a5e1a6ae16a531efbfbfd2e31e6da296a349d10e6bb58e",
+          "sha256": "b65568ca69be82907a6779ca77c93473742e2df6d4db636c13fec54a55cbf2de",
+          "sha1": "404c9ebc9e2283d340b7df25a12b894d235a3631",
+          "md5": "eb5c7d5ec3d07e9d43a123ec2ed33eae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mutils-0.0.1a-javadoc.jar",
+          "url": "mutils-0.0.1a-javadoc.jar",
+          "size": 301716,
+          "sha512": "5612954dc3afe7f503b104555b1ae1fd44d8e59475ac938fd99ca1c989b84a81ce46a255189153c19012a1bfb8b354e8914b107b42f25edd9debd5b61f704548",
+          "sha256": "b69be4fc0b5a229561ac3bd8a5a3b8eb47ae873a6c183571aff0852662ecf432",
+          "sha1": "170e365666ada0876e8696072ed73de416c677a0",
+          "md5": "d339a642fc2686d622015b630466cf8c"
+        }
+      ]
+    }
+  ]
+}
